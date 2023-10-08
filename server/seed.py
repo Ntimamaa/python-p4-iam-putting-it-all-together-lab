@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-
+from app import app, db
 from random import randint, choice as rc
 
 from faker import Faker
 
-from app import app
-from models import db, Recipe, User
+from models import Recipe, User
 
 fake = Faker()
 
